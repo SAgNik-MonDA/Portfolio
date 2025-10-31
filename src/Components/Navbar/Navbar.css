@@ -1,0 +1,28 @@
+.navbar{
+    min-height: 14vh;
+}
+.logo{
+    font-size: 1.8rem;
+    color: var(--text-primary-clr);
+    font-weight: bold;
+}
+.logo span{
+    display: inline-flex;
+    background: var(--accent-clr);
+    color: var(--background-clr);
+    width: 2.8rem;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    align-items: center;
+    justify-content: center;  
+    margin-right: 0.1rem;
+}
+
+
+.link{
+    font-size: 0.95rem;
+    color: var(--text-secondary-clr);
+}
+.gap-2{
+    gap:2rem
+}
