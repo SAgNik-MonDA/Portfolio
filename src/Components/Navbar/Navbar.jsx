@@ -94,12 +94,12 @@ const Navbar = () => {
         <div className="md:hidden">
           {isOpen ? (
             <FiX
-              className="text-3xl text-[#8245ec] cursor-pointer"
+              className="text-3xl text-[#ab0c0c] cursor-pointer"
               onClick={() => setIsOpen(false)}
             />
           ) : (
             <FiMenu
-              className="text-3xl text-[#8245ec] cursor-pointer"
+              className="text-3xl text-[#4ed19c] cursor-pointer"
               onClick={() => setIsOpen(true)}
             />
           )}
@@ -114,7 +114,7 @@ const Navbar = () => {
               <li
                 key={item.id}
                 className={`cursor-pointer hover:text-white ${
-                  activeSection === item.id ? "text-[#8245ec]" : ""
+                  activeSection === item.id ? "text-[#4ed19c]" : ""
                 }`}
               >
                 <button onClick={() => handleMenuItemClick(item.id)}>
@@ -124,18 +124,18 @@ const Navbar = () => {
             ))}
             <div className="flex space-x-4">
               <a
-                href="https://github.com/codingmastr"
+                href="https://github.com/SAgNik-MonDA"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white"
+                className="text-gray-300 hover:text-[#4ed19c]"
               >
                 <FaGithub size={24} />
               </a>
               <a
-                href="https://www.linkedin.com/in/tarun-kaushik-553b441a4"
+                href="https://www.linkedin.com/in/sagnik-mondal-118b08311"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white"
+                className="text-gray-300 hover:text-[#4ed19c]"
               >
                 <FaLinkedin size={24} />
               </a>
