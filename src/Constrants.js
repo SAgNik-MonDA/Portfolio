@@ -1,28 +1,27 @@
 // Skills Section Logo's
-import htmlLogo from './assets/html.png';
-import cssLogo from './assets/css.jpg';
-import javascriptLogo from './assets/javascript.jpg';
-import reactjsLogo from './assets/react.jpeg';
-import reduxLogo from './assets/redux.jpg';
-import tailwindcssLogo from './assets/talliwindcss.png';
-import materialuiLogo from './assets/materialui.png';
-import bootstrapLogo from './assets/bootstrap.jpg';
-import Mernstacklogo from './assets/mernstack.png';
-import nodejsLogo from './assets/nodejs.jpg';
-import expressjsLogo from './assets/expressjs.jpg';
-import mysqlLogo from './assets/mysql.png';
-import mongodbLogo from './assets/mongodb.jpg';
-import cLogo from './assets/c.png';
-import cppLogo from './assets/c++.png';
-import javaLogo from './assets/java.png';
-import pythonLogo from './assets/python.png';
-import gitLogo from './assets/git.png';
-import githubLogo from './assets/github.png';
-import vscodeLogo from './assets/vscode.png';
-import postmanLogo from './assets/postman.jpg';
-import figmaLogo from './assets/figma.png';
-import netlifyLogo from './assets/netlify.png';
-import vercelLogo from './assets/vercel.png';
+import htmlLogo from './assets/tech/html.png';
+import cssLogo from './assets/tech/css.png';
+import javascriptLogo from './assets/tech/javascript.png';
+import reactjsLogo from './assets/tech/reactjs.png';
+import reduxLogo from './assets/tech/redux.png';
+import tailwindcssLogo from './assets/tech/tailwindcss.png';
+import materialuiLogo from './assets/tech/materialui.png';
+import bootstrapLogo from './assets/tech/bootstrap.png';
+import nodejsLogo from './assets/tech/nodejs.png';
+import expressjsLogo from './assets/tech/express.png';
+import mysqlLogo from './assets/tech/mysql.png';
+import mongodbLogo from './assets/tech/mongodb.png';
+import cLogo from './assets/tech/c.png';
+import cppLogo from './assets/tech/cpp.png';
+import javaLogo from './assets/tech/java.png';
+import pythonLogo from './assets/tech/python.png';
+import gitLogo from './assets/tech/git.png';
+import githubLogo from './assets/tech/github.png';
+import vscodeLogo from './assets/tech/vscode.png';
+import postmanLogo from './assets/tech/postman.png';
+import figmaLogo from './assets/tech/figma.png';
+import netlifyLogo from './assets/tech/netlify.png';
+import vercelLogo from './assets/tech/vercel.png';
 
 
 // Experience Section Logo's
@@ -51,7 +50,6 @@ export const SkillsInfo = [
   {
     title: 'Backend',
     skills: [
-      { name: 'Mernstack', logo: Mernstacklogo },
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },

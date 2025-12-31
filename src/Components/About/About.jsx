@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="pt-40 pb-36 px-4 sm:px-6 md:px-10 lg:px-20 max-w-7xl mx-auto font-sans"
+      className="pt-40 pb-44 px-0 sm:px-2 md:px-4 lg:px-20 w-full max-w-full lg:max-w-7xl mx-auto font-sans"
     >
       <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-8">
         
@@ -22,7 +22,7 @@ const About = () => {
             Sagnik Mondal
           </h2>
 
-          <h3 className="mb-4 text-[#8245ec] font-semibold flex items-center justify-center md:justify-start mt-6">
+          <h3 className="mb-8 text-[#8245ec] font-semibold flex items-center justify-center md:justify-start mt-10 text-3xl">
             <span className="text-white mr-2">I am a</span>
             <span className="text-[#4ed19c]">
               <Typewriter
@@ -38,6 +38,10 @@ const About = () => {
             </span>
           </h3>
 
+
+
+
+
           <p className="text-sm sm:text-base md:text-lg text-gray-300 mb-6 leading-relaxed max-w-xl mx-auto md:mx-0">
             I am a Fullstack Developer skilled in both frontend and backend
             development. My expertise lies in the MERN stack and modern frontend
@@ -45,7 +49,7 @@ const About = () => {
             experiences, and high-performance web solutions.
           </p>
 
-          <div className="flex justify-center md:justify-start mt-6">
+          <div className="flex justify-center md:justify-start mt-12">
             <a
               href={resumeFile}
               download="Sagnik-Mondal-Resume.pdf"
