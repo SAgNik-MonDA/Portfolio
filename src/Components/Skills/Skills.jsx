@@ -47,8 +47,8 @@ const Skills = () => (
       >
         <div
           className="
-            grid
-            grid-cols-[repeat(auto-fit,minmax(120px,1fr))]  /* ✅ md responsive grid */
+            
+            grid-cols-[repeat(auto-fit,minmax(120px,1fr))]  
             gap-4
             w-full
           "
