@@ -1,11 +1,12 @@
 import React from "react";
 import { SkillsInfo } from "../../Constrants.js";
+import '../../index.css';
 import Tilt from "react-parallax-tilt";
 
 const Skills = () => (
   <section
     id="skills"
-    className="relative -mt-24 pt-12 pb-16 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans bg-skills-gradient clip-path-custom bg-black"
+    className="relative -mt-24 pt-12 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans   bg-skills-gradient clip-path-custom bg-black"
   >
     {/* Section Title */}
     <div className="text-center mb-6">
