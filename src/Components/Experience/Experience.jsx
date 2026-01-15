@@ -43,20 +43,20 @@ const Experience = () => {
             }`}
           >
             {/* Timeline Circle */}
-            {/* <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2  w-12 h-12  z-10">
+            <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2  w-12 h-12  z-10 md:hidden sm:hidden">
               <img
                 src={experience.img} 
                 alt={experience.company}
                 className="w-full h-full object-cover rounded-full"
               />
-            </div> */}
-<div className="absolute left-0 -translate-x-1/2 w-12 h-12 z-10 md:hidden sm:hidden">
+            </div>
+{/* <div className="absolute left-0 -translate-x-1/2 w-12 h-12 z-10 md:hidden sm:hidden">
   <img
     src={experience.img}
     alt={experience.company}
     className="w-full h-full object-cover rounded-full"
   />
-</div>
+</div> */}
 
             {/* Content Section */}
             <div

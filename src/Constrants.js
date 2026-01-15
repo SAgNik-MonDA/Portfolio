@@ -33,6 +33,10 @@ import Eklavya_Logo from './assets/experience/Eklavya_Logo.jpeg';
 
 
 // Project Section Logo's
+import Dish_Drop from './assets/project/Dish_Drop.png';
+import Eternastay from './assets/project/Eternastay.png';
+import Eklavya from './assets/project/Eklavya.png';
+import Todo from './assets/project/Todo.png';
 
 
 export const SkillsInfo = [
@@ -148,3 +152,47 @@ export const SkillsInfo = [
     },
   ];
   
+
+  export const project = [
+    {
+      id: 0,
+      title: "Dish Drop",
+      description:
+        "DishDrop is a responsive food delivery website built with HTML, CSS, and JavaScript. It lets users browse a variety of food items, check prices, add them to a cart, and place orders through a simple checkout process. The project focuses on a clean design, smooth user experience, and responsive layout for both mobile and desktop devices.",
+      image: Dish_Drop,
+      tags: ["HTML", "CSS", "JavaScript","Bootstrap"],
+      github: "https://github.com/SAgNik-MonDA/DishDrop-Website",
+      // webapp: "https://githubprofiledetective.netlify.app/",
+    },
+    {
+      id: 1,
+      title: "Eternastay",
+      description:
+        "Developed a modern and responsive Hotel Booking Website that allows users to browse rooms, check availability, and explore hotel features seamlessly. The frontend is built using HTML, CSS, JavaScript, and Bootstrap, ensuring a clean UI, fast loading, and smooth user experience across all devices.",
+      image: Eternastay,
+      tags: ["HTML", "CSS", "JavaScript","Bootstrap"],
+      github: "https://github.com/SAgNik-MonDA/Hotel-Booking-Frontend",
+      webapp: "https://eternastayhotelbooking.netlify.app/",
+    },
+    {
+      id: 2,
+      title: "Eklavya official Website",
+      description:
+        "Designed and developed a fully responsive official website for Eklavya, the social service society of the college. The platform highlights the society’s vision, social initiatives, events, and student involvement, while offering a clean and engaging user experience.",
+      image: Eklavya,
+      tags: ["HTML", "CSS", "JavaScript","Bootstrap"],
+      github: "https://github.com/SAgNik-MonDA/Eklavya-HIT",
+      webapp: "https://eklavyahithaldia.netlify.app/",
+    },
+    {
+      id: 3,
+      title: "Todo List",
+      description:
+        "Built a simple yet efficient To-Do List web application using JavaScript, allowing users to add, edit, delete, and manage daily tasks with ease.",
+      image: Todo,
+      tags: ["Html","JavaScript"],
+      github: "https://github.com/SAgNik-MonDA/Todo_List_Project",
+      // webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+    },
+   
+  ];
