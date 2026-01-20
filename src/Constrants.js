@@ -30,7 +30,9 @@ import IETE_Logo from './assets/experience/IETE_Logo.jpeg';
 import Eklavya_Logo from './assets/experience/Eklavya_Logo.jpeg';
 
 // Education Section Logo's
-
+import PDHS from './assets/Education/PDHS.webp';
+import BRKI from './assets/Education/BRKI.jpeg';
+import HIT from './assets/Education/HIT.png';
 
 // Project Section Logo's
 import Dish_Drop from './assets/project/Dish_Drop.png';
@@ -195,4 +197,35 @@ export const SkillsInfo = [
       // webapp: "https://www.npmjs.com/package/cmtk-email-validator",
     },
    
+  ];
+
+
+   export const education = [
+    {
+      id: 0,
+      img: HIT,
+      school: "Haldia Institute Of Technology , Haldia",
+      date: "Sept 2023 - present",
+      grade: "8.19 CGPA",
+      desc: "I am currently pursuing my Bachelor of Technology (B.Tech) in Information Technology from Haldia Institute of Technology, West Bengal. During my academic journey, I have developed a strong foundation in core computer science concepts and practical software development skills.My coursework includes Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networking, Web Development, and Software Engineering, which have strengthened my problem-solving and analytical abilities.Alongside academics, I actively participate in technical workshops, seminars, and hands-on training programs, allowing me to gain real-world exposure and stay updated with emerging technologies. My experience at Haldia Institute of Technology has played a crucial role in shaping my technical expertise, teamwork skills, and professional growth as an aspiring software developer.",
+      degree: "bachelor of Technology in Information Technology",
+    },
+    {
+      id: 1,
+      img: BRKI,
+      school: "Barchatra Ramkanai Institution,Bankura",
+      date: "2022 - 2023",
+      grade: "78.8%",
+      desc: "I have completed my Class 12 education from Barchatra Ramkanai Institution, Bankura, under the WBCHSE board, where I studied Physics, Chemistry, Mathematics, and Biology.",
+      degree: "WBCHSE(XII) - Science",
+    },
+    {
+      id: 2,
+      img: PDHS,
+      school: "PalashDanga High School ",
+      date: "2020-2021",
+      grade: "89.28%",
+      desc: "I completed my class 10 education from Palashdanga High School , Bankura, under the WBBSE board.",
+      degree: "WBBSE(X)",
+    },
   ];
