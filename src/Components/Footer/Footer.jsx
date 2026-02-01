@@ -13,7 +13,9 @@ const Footer = () => {
   return (
     <footer className="text-white py-8 px-[5vw] md:px-[7vw] lg:px-[20vw]">
       <div className="container mx-auto text-center">
+        
         {/* Name / Logo */}
+
         <h2 className="text-xl font-semibold text-purple-500">Sagnik Mondal</h2>
 
         {/* Navigation Links - Responsive */}
