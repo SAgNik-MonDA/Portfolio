@@ -18,6 +18,7 @@ const Footer = () => {
 
         {/* Navigation Links - Responsive */}
         <nav className="flex flex-wrap justify-center space-x-2 sm:space-x-6 mt-4">
+          
           {[
             { name: "About", id: "about" },
             { name: "Skills", id: "skills" },
