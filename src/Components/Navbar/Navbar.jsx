@@ -46,17 +46,16 @@ const Navbar = () => {
     // >
     //   <div className="text-white py-2 flex justify-between items-center">
 
-   <nav
-  className={`fixed top-0 left-0 w-full z-50 h-16 flex items-center 
+    <nav
+      className={`fixed top-0 left-0 w-full z-50 h-16 flex items-center 
   transition duration-300 
   px-4 sm:px-8 md:px-[1vw] lg:px-[20vw] 
-  ${
-    isScrolled
-      ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md"
-      : "bg-transparent"
-  }`}
->
-  <div className="text-white flex justify-between items-center w-full">
+  ${isScrolled
+          ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md"
+          : "bg-transparent"
+        }`}
+    >
+      <div className="text-white flex justify-between items-center w-full">
 
         {/* Logo */}
         <div className="text-lg font-semibold cursor-pointer">
@@ -71,11 +70,12 @@ const Navbar = () => {
         <ul className="hidden md:flex space-x-8 text-gray-300">
           {menuItems.map((item) => (
             <li
-              key={item.id}
-              className={`cursor-pointer hover:text-[#4ed19c] ${
-                activeSection === item.id ? "text-[#4ed19c]" : ""
-              }`}
+              className={`cursor-pointer hover:text-[#4ed19c] ${activeSection === item.id ? "text-gray-300" : ""
+                }`}
             >
+   
+
+
               <button onClick={() => handleMenuItemClick(item.id)}>
                 {item.label}
               </button>
@@ -121,15 +121,13 @@ const Navbar = () => {
 
       {/* Mobile Menu Items */}
       {isOpen && (
-        <div className="absolute top-16 left-1/2 transform -translate-x-1/2 w-4/5 bg-[#98b3a6] bg-opacity-50 backdrop-filter backdrop-blur-lg z-50 rounded-lg shadow-lg md:hidden">
+        <div className="absolute top-16 left-1/2 transform -translate-x-1/2 w-4/5 bg-[#1b3420] bg-opacity-90 backdrop-filter backdrop-blur-lg z-50 rounded-lg  md:hidden border border-[#4ed19c] shadow-[0_0_20px_5px_rgba(78,209,156,0.3)]">
           <ul className="flex flex-col items-center space-y-4 py-4 text-gray-300">
             {menuItems.map((item) => (
               <li
-                key={item.id}
-                className={`cursor-pointer hover:text-white ${
-                  activeSection === item.id ? "text-[#4ed19c]" : ""
+              className={`cursor-pointer hover:text-[#4ed19c] ${activeSection === item.id ? "text-gray-300" : ""
                 }`}
-              >
+            >
                 <button onClick={() => handleMenuItemClick(item.id)}>
                   {item.label}
                 </button>
@@ -159,5 +157,4 @@ const Navbar = () => {
     </nav>
   );
 };
-
 export default Navbar;

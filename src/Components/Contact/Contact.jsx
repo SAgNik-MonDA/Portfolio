@@ -107,7 +107,7 @@ const Contact = () => {
       </div>
 
       {/* Contact Form */}
-      <div className="mt-8 w-full max-w-md bg-[#0d081f] p-6 rounded-lg shadow-lg border border-gray-700">
+      <div className="mt-8 w-full max-w-md bg-[#0d081f] p-6 rounded-lg  border border-[rgb(78,209,156)] shadow-[0_0_20px_5px_rgba(78,209,156,0.3)]">
         <h3 className="text-xl font-semibold text-white text-center">
           Connect With Me <span className="ml-1">🚀</span>
         </h3>
@@ -118,34 +118,39 @@ const Contact = () => {
             name="user_email"
             placeholder="Your Email"
             required
-            className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
+            className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:  focus:border-[rgb(78,209,156)]"
           />
           <input
             type="text"
             name="user_name"
             placeholder="Your Name"
             required
-            className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
+            className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-[rgb(78,209,156)]"
           />
           <input
             type="text"
             name="subject"
             placeholder="Subject"
             required
-            className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
+            className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-[rgb(78,209,156)]"
           />
           <textarea
             name="message"
             placeholder="Message"
             rows="4"
             required
-            className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
+            className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-[rgb(78,209,156)]"
           />
           
           {/* Send Button */}
           <button
             type="submit"
-            className="w-full bg-gradient-to-r from-purple-600 to-pink-500 py-3 text-white font-semibold rounded-md hover:opacity-90 transition"
+            className="inline-flex items-center justify-center px-5 py-3 text-base sm:text-lg font-semibold rounded-full transition-transform hover:scale-105 "
+              style={{
+                background: "linear-gradient(90deg,#8245ec,#4ed19c)",
+                boxShadow: "0 6px 18px rgba(130,69,236,0.18)",
+                color: "white",
+              }}
           >
             Send
           </button>
