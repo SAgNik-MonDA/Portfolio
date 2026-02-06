@@ -33,7 +33,7 @@ const Work = () => {
           <div
             key={project.id}
             onClick={() => handleOpenModal(project)}
-            className="border border-white bg-gray-900 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden cursor-pointer hover:shadow-purple-500/50 hover:-translate-y-2 transition-transform duration-300"
+            className=" bg-gray-900 backdrop-blur-md rounded-2xl  border-2 border-[rgb(78,209,156)] overflow-hidden cursor-pointer hover:shadow-[0_0_20px_5px_rgba(78,209,156,0.3)] hover:-translate-y-2 transition-transform duration-300"
           >
             <div className="p-4">
               <img
@@ -53,7 +53,7 @@ const Work = () => {
                 {project.tags.map((tag, index) => (
                   <span
                     key={index}
-                    className="inline-block bg-[#251f38] text-xs font-semibold text-purple-500 rounded-full px-2 py-1 mr-2 mb-2"
+                    className="inline-block bg-[#251f38] text-xs font-semibold text-[rgb(163,230,46)] border border-[rgb(78,209,156)] rounded-full px-2 py-1 mr-2 mb-2"
                   >
                     {tag}
                   </span>
@@ -72,7 +72,7 @@ const Work = () => {
             <div className="flex justify-end p-4">
               <button
                 onClick={handleCloseModal}
-                className="text-white text-3xl font-bold hover:text-purple-500"
+                className="text-white text-3xl font-bold hover:text-[rgb(78,209,156)]"
               >
                 &times;
               </button>
@@ -97,7 +97,7 @@ const Work = () => {
                   {selectedProject.tags.map((tag, index) => (
                     <span
                       key={index}
-                      className="bg-[#251f38] text-xs font-semibold text-purple-500 rounded-full px-2 py-1"
+                      className="bg-[#251f38] text-xs font-semibold text-[rgb(143,217,15)] rounded-full px-2 py-1"
                     >
                       {tag}
                     </span>
@@ -108,7 +108,7 @@ const Work = () => {
                     href={selectedProject.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    className="w-1/2 bg-gray-800 hover:bg-[rgb(78,209,156)] text-white-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
                   >
                     View Code
                   </a>
@@ -116,7 +116,7 @@ const Work = () => {
                     href={selectedProject.webapp}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    className="w-1/2 bg-[rgb(78,209,196)] hover:bg-[rgb(78,209,156)] text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
                   >
                     View Live
                   </a>

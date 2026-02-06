@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="py-24 pb-24 px-[12vw] md:px-[3vw] lg:px-[16vw] font-sans bg-skills-gradient clip-path-custom-2"
+      className="py-24 pb-24 px-[12vw] md:px-[3vw] lg:px-[16vw] font-sans bg-skills-gradient clip-path-custom-2 "
     >
 
 
@@ -60,9 +60,10 @@ const Experience = () => {
 
             {/* Content Section */}
             <div
-              className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl shadow-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0,0,20px,1px rgba(130,69,236,0.3)] ${
+              className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl  bg-gray-900 backdrop-blur-md shadow-[0_0_20px_5px_rgba(78,209,156,0.3)] border-2 border-[rgb(78,209,156)]
+         ${
                 index % 2 === 0 ? "sm:ml-0" : "sm:mr-0"
-              } sm:ml-44 sm:mr-44 ml-8 transform transition-transform duration-300 hover:scale-105`}
+              } sm:ml-44 sm:mr-44 ml-8 transform transition-transform duration-300  hover:scale-105  `}
             >
               {/* Flex container for image and text */}
               <div className="flex items-center space-x-6">
@@ -97,7 +98,7 @@ const Experience = () => {
                   {experience.skills.map((skill, index) => (
                     <li
                       key={index}
-                      className="bg-[#43818e] text-gray-300 px-4 py-1 text-xs sm:text-sm rounded-lg mr-2 mb-2 border border-gray-400"
+                      className=" bg-[#251f38]  text-[rgb(163,230,46)] px-4 py-1 text-xs sm:text-sm rounded-lg mr-2 mb-2 border border-[rgb(78,209,156)]"
                     >
                       {skill}
                     </li>
