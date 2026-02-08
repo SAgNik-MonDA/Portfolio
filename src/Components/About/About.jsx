@@ -140,7 +140,7 @@ const About = () => {
             transitionSpeed={1000}
             gyroscope={true}
           >
-            <div className="border-2 md:border-4 overflow-hidden w-36 h-36 sm:w-48 sm:h-48 md:w-80 md:h-80 lg:w-96 lg:h-96 flex items-center justify-center border-[rgb(78,209,156)] rounded-full">
+            <div className="border-2 md:border-4 overflow-hidden w-36 h-36 sm:w-48 sm:h-48 md:w-80 md:h-80 lg:w-96 lg:h-96 flex items-center justify-center border-[rgb(78,209,156)] rounded-full shadow-[0_0_20px_5px_rgba(78,209,156,0.3)]">
               <img
                 src={ProfileImage}
                 alt="Sagnik Mondal"
